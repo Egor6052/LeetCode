@@ -103,7 +103,6 @@ public:
 
 // Функція для обробки запиту
 string processRequest(const string& request) {
-    // Тут ви можете реалізувати свою логіку обробки запитів
     Products product;
     product.setName("Sample Product");
     product.setPrice(100);

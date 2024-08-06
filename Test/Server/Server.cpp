@@ -1,4 +1,3 @@
-// Server.cpp
 #include <iostream>
 #include <cstring>
 #include <sys/types.h>
