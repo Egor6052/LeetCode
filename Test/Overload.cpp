@@ -23,6 +23,7 @@ public:
 	}
 	// Distructor; 
 	~Products(){
+		cout << "Distructor: " << this << endl;
 		delete [] data;
 	}
 	
@@ -83,8 +84,17 @@ public:
 	// Peregruzka =;
 	void operator = (const Products &valueProduct){
 		cout << "Operator '='" << endl;
+		this->size = valueProduct.size;
+
+		// Якщо данні у новому масиві є;
 		if (this->data != nullptr){
 			delete [] this->data;
+		}
+
+		this->data = new int[valueProduct.size];
+		for(int i = 0; i < valueProduct.size; i++){
+			this->data[i] = valueProduct.data[i];
+	
 		}
 	}
 };
@@ -95,6 +105,7 @@ int main(){
 	banana.setName("Banana");
 	banana.setPrice(90);
 	banana.setWeight(1500);
+	banana.setData(10);
 	banana.Print();
 
 	Products persik;
