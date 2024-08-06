@@ -9,25 +9,27 @@ private:
 	int age;
 	string name;
 	int *array;
+	int size = 10;
 
 public: 
 
-	Mans(int size) {
+	Mans() {
 		this->array = new int[size];
-
+		age = 0;
+		name = "NoName";
 		for(int i = 0; i < size; i++){
 			array[i] = i+1;
 		}
 
-		cout << "Constructor: " << this << endl;
+		cout << "Constructor! " << this << endl;
 	}
 
 	~Mans() {
-		cout << "Distructor: " << this << endl;
+		cout << "Distructor! " << this << endl;
 		delete[] array;
 	}
 
-	void Print(int size){
+	void Print(){
 		cout << "Name: " << name << "\n" << "Ege: " << age << endl;
 
 		for (int i = 0; i < size; i++){
@@ -64,17 +66,18 @@ public:
 };
 
 
-	// void Function(Mans valueMan){
-	// 	cout << "Function:" << endl;
-	// }
+	void Function(Mans valueMan){
+		cout << "Function1:" << endl;
+		valueMan.Print();
+	}
 
+	// Copy constructor;
 	Mans Function2(){
 		cout << "Function2:" << endl;
-		int sizeArray = 10;
-		Mans numberArray(sizeArray);
-		numberArray.Print(sizeArray);
+		Mans temp;
+		temp.Print();
 
-		return numberArray;
+		return temp;
 	}
 
 int main(){
@@ -88,14 +91,14 @@ int main(){
 	// man.Print();
 
 
-	// Mans man2;
-	// man2.setAge(20);
-	// man2.setName("Kolya");
-	// man2.Print();
+	// Mans man1;
+	// man1.setAge(20);
+	// man1.setName("Kolya");
+	// man1.Print();
 
-	// Function(man2);
-
+	// Function(man1);
 	Function2();
+
 
 	return 0;
 }
