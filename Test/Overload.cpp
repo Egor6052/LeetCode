@@ -44,7 +44,9 @@ public:
 	}
 	void setData(int newSize) {
         if (newSize > 0) {
-            delete[] data;  // Звільняємо старий масив
+        	// Звільняємо старий масив
+            delete[] data;
+
             data = new int[newSize];
             size = newSize;
             for (int i = 0; i < size; ++i) {
@@ -109,30 +111,35 @@ public:
 
 	}
 
-	// Overload !=;
-	// bool operator != (const Products &valueProduct){
-	// 	bool result;
-	// 	if (this->size != valueProduct.size){
-	// 		if (this->name != valueProduct.name){
-	// 			if (this->price != valueProduct.price){
-	// 				if(this-> weight != valueProduct.weight){
-	// 					// result = true;
-	// 					return true;
-	// 				}
-	// 			}
-	// 		}
-	// 	} else {
-	// 		// result = false;
-	// 		return false;
-	// 	}
-	// }
+	// Overload !=
+	bool operator != (const Products &valueProduct) const {
+	    if (this->name != valueProduct.name ||
+	        this->price != valueProduct.price ||
+	        this->weight != valueProduct.weight ||
+	        this->size != valueProduct.size) {
+	        return true;
+	    }
+
+	    // Якщо основні атрибути рівні, перевіряємо дані
+	    for (int i = 0; i < this->size; i++) {
+	        int valueI = this->data[i];
+
+	        // Перевіряємо, чи дані рівні
+	        if (valueI != valueProduct.data[i]) {
+	            return true;
+	        }
+	    }
+
+	    // Якщо всі перевірки не виявили відмінностей, об'єкти рівні
+	    return false;
+	}
 
 	// Overload == ;
 	bool operator == (const Products &valueProduct){
 
 		if (this->name == valueProduct.name &&
 		 	this->price == valueProduct.price &&
-		  	this->weight == valueProduct.weight && 
+		  	this->weight == valueProduct.weight &&
 		  	this->size == valueProduct.size){
 
 			int comparison = 0;
@@ -169,10 +176,16 @@ int main(){
 	banana.Print();
 
 	Products persik;
-	persik = banana;
-
-	bool result = persik == banana;
-	// persik != banana;
+	// persik = banana;
+	persik.setName("Persik");
+	persik.setPrice(50);
+	persik.setData(20);
+	
+	// bool result = persik == banana;
+	bool result = persik != banana;
+	if (result){
+		cout << "!=" << endl;
+	}
 
 
 	persik.Print();
