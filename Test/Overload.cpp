@@ -28,13 +28,19 @@ public:
 	}
 	
 	void setName(string valueName){
-		name = valueName;
+		if (!valueName.empty()){
+			name = valueName;
+		} else {
+			cout << "Name is null. But now = NoName." << endl;
+			name = "NoName";
+		}
+		
 	}
 	void setPrice(int valuePrice){
 		price = valuePrice;
 	}
 	void setWeight(double valueWeight){
-		weight = valueWeight;
+		weight = valueWeight / 1000;
 	}
 	void setData(int newSize) {
         if (newSize > 0) {
@@ -72,7 +78,7 @@ public:
 
 	void Print(){
 		cout << this << endl;
-		cout << "Name: " << name << "\n" << "Price: " << price << " грн" << "\n" << "Weight: " << weight / 1000 << " Кг" << "\n" << endl;
+		cout << "Name: " << name << "\n" << "Price: " << price << " грн" << "\n" << "Weight: " << weight << " Кг" << "\n" << endl;
 
 		cout << "Data [ ";
 		for (int i = 0; i < size; i++){
@@ -96,6 +102,60 @@ public:
 			this->data[i] = valueProduct.data[i];
 	
 		}
+
+		this->name = valueProduct.name;
+		this->price = valueProduct.price;
+		this->weight = valueProduct.weight;
+
+	}
+
+	// Overload !=;
+	// bool operator != (const Products &valueProduct){
+	// 	bool result;
+	// 	if (this->size != valueProduct.size){
+	// 		if (this->name != valueProduct.name){
+	// 			if (this->price != valueProduct.price){
+	// 				if(this-> weight != valueProduct.weight){
+	// 					// result = true;
+	// 					return true;
+	// 				}
+	// 			}
+	// 		}
+	// 	} else {
+	// 		// result = false;
+	// 		return false;
+	// 	}
+	// }
+
+	// Overload == ;
+	bool operator == (const Products &valueProduct){
+
+		if (this->name == valueProduct.name &&
+		 	this->price == valueProduct.price &&
+		  	this->weight == valueProduct.weight && 
+		  	this->size == valueProduct.size){
+
+			int comparison = 0;
+
+			for (int i = 0; i < this->size; i++){
+				int valueI = this->data[i];
+
+				for (int j = 0; j < valueProduct.size; j++){
+					int valueJ = valueProduct.data[i];
+
+					if (valueI == valueJ){
+						comparison += 1;
+					} else {
+						comparison -= 1;
+					}
+				}
+			}
+			// Якщо все співпало, то дорівнює;
+			return comparison == this->size && comparison == valueProduct.size;
+		}
+		else {
+			return false;
+		}
 	}
 };
 
@@ -110,6 +170,10 @@ int main(){
 
 	Products persik;
 	persik = banana;
+
+	bool result = persik == banana;
+	// persik != banana;
+
 
 	persik.Print();
 	return 0;
