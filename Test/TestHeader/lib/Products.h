@@ -4,7 +4,7 @@
 
 class Products {
 private:
-    std::string name;  // Використовуємо std::string
+    std::string name;
     int price;
     double weight;
 
@@ -15,12 +15,12 @@ public:
     Products();
     ~Products();
 
-    void setName(std::string valueName);  // Використовуємо std::string
+    void setName(std::string valueName);
     void setPrice(int valuePrice);
     void setWeight(double valueWeight);
     void setData(int newSize);
 
-    std::string getName();  // Використовуємо std::string
+    std::string getName();
     int getPrice();
     double getWeight();
     int* getData();
