@@ -1,4 +1,5 @@
 #pragma once
+// #ifndef 
 #include <iostream>
 #include <string>
 
@@ -31,4 +32,5 @@ public:
     void operator=(const Products &valueProduct);
     bool operator!=(const Products &valueProduct) const;
     bool operator==(const Products &valueProduct);
+    Products operator+(const Products &valueProduct);
 };

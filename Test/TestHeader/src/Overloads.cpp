@@ -43,3 +43,22 @@ bool Products::operator==(const Products &valueProduct) {
     }
     return false;
 }
+
+Products Products::operator+(const Products &valueProduct){
+    Products temp;
+
+    temp.price = this->price + valueProduct.price;
+    temp.weight = this->weight + valueProduct.weight;
+    temp.size = this->size + valueProduct.size;
+    temp.data = new int[temp.size];
+
+    for (int i = 0; i < this->size; i++){
+        temp.data[i] = this->data[i];
+    }
+    for (int j = 0; j < valueProduct.size; j++){
+        temp.data[this->size + j] = valueProduct.data[j];
+    }
+
+    return temp;
+}
+

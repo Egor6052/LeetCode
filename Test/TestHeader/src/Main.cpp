@@ -26,5 +26,7 @@ int main(){
 	}
 	persik.Print();
 	
+	Products potato = persik + banana;
+	potato.Print();
 	return 0;
 }
