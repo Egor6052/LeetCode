@@ -27,6 +27,13 @@ int main(){
 	persik.Print();
 	
 	Products potato = persik + banana;
+	potato.setName("Potato");
+	potato.Print();
+
+
+	// перегрузка інкримента та дикримента;
+	++potato;
+	// potato++;
 	potato.Print();
 	return 0;
 }

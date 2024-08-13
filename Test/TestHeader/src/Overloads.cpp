@@ -62,3 +62,18 @@ Products Products::operator+(const Products &valueProduct){
     return temp;
 }
 
+// Incriments
+// Prefix
+Products & Products::operator ++(){
+    this->price++;
+    return *this;
+}
+// Postfix;
+Products Products::operator++(int value) {
+    Products temp = *this;
+    this->price++;
+    return temp;
+}
+
+
+

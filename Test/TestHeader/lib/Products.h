@@ -33,4 +33,6 @@ public:
     bool operator!=(const Products &valueProduct) const;
     bool operator==(const Products &valueProduct);
     Products operator+(const Products &valueProduct);
+    Products & operator ++();
+    Products operator ++(int valure);
 };
