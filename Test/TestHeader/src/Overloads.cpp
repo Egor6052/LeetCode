@@ -68,6 +68,7 @@ Products & Products::operator ++(){
     this->price++;
     return *this;
 }
+
 // Postfix;
 Products Products::operator++(int value) {
     Products temp = *this;
