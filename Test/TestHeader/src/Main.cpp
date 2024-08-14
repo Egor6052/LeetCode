@@ -41,5 +41,7 @@ int main(){
 	cout << potato[0] << endl;
 	potato[0] = 100;
 	cout << potato[0] << endl;
+
+	FriendlyFunction(potato);
 	return 0;
 }

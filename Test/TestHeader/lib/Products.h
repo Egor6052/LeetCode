@@ -37,4 +37,6 @@ public:
     Products & operator ++();
     Products operator ++(int valure);
     int & operator [](int index);
+
+    friend void FriendlyFunction(Products &valueProduct);
 };
