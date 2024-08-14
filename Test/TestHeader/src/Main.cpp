@@ -38,6 +38,8 @@ int main(){
 
 
 	// Перегрузка оператора індексування []
-	cout << potato.data[0] << endl;
+	cout << potato[0] << endl;
+	potato[0] = 100;
+	cout << potato[0] << endl;
 	return 0;
 }
