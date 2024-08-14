@@ -75,5 +75,10 @@ Products Products::operator++(int value) {
     return temp;
 }
 
+// overload operator index [];
+int & Products::operator [](int index){
+    return array[index];
+}
+
 
 

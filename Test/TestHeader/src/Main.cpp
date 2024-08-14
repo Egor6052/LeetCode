@@ -35,5 +35,9 @@ int main(){
 	++potato;
 	// potato++;
 	potato.Print();
+
+
+	// Перегрузка оператора індексування []
+	cout << potato.data[0] << endl;
 	return 0;
 }

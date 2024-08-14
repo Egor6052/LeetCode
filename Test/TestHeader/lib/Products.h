@@ -35,4 +35,5 @@ public:
     Products operator+(const Products &valueProduct);
     Products & operator ++();
     Products operator ++(int valure);
+    int & operator [](int index);
 };
