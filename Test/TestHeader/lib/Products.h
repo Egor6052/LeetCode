@@ -6,10 +6,14 @@
 #include <string>
 
 #include "FriendlyClass.h"
+#include "Shop.h"
 
 class FriendlyClass;
+class Shop;
 
 class Products {
+
+    friend class Shop;
 private:
     std::string name;
     int price;
@@ -47,5 +51,6 @@ public:
     friend void FriendlyFunction(Products &valueProduct);
 
     friend void FriendlyClass::SendMessage(Products &valueProduct);
+    void Tovar(Products &valueTovar);
 };
 #endif // PRODUCTS_H

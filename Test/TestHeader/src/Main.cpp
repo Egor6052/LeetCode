@@ -46,5 +46,7 @@ int main(){
 	FriendlyClass friendClass;
 
 	friendClass.SendMessage(potato);
+	Shop shop;
+    shop.Tovar(persik);
 	return 0;
 }
