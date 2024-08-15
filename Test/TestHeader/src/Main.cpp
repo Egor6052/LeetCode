@@ -43,5 +43,8 @@ int main(){
 	cout << potato[0] << endl;
 
 	FriendlyFunction(potato);
+	FriendlyClass friendClass;
+
+	friendClass.SendMessage(potato);
 	return 0;
 }

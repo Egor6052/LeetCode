@@ -1,7 +1,13 @@
 #pragma once
-// #ifndef 
+#ifndef PRODUCTS_H
+#define PRODUCTS_H
+
 #include <iostream>
 #include <string>
+
+#include "FriendlyClass.h"
+
+class FriendlyClass;
 
 class Products {
 private:
@@ -39,4 +45,7 @@ public:
     int & operator [](int index);
 
     friend void FriendlyFunction(Products &valueProduct);
+
+    friend void FriendlyClass::SendMessage(Products &valueProduct);
 };
+#endif // PRODUCTS_H
