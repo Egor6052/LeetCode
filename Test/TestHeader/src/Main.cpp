@@ -49,6 +49,6 @@ int main(){
 	Shop shop;
     shop.Tovar(persik);
 
-    cout << "Загальнакількість продуктів: " << potato.cout << endl;
+    cout << "Загальнакількість продуктів: " << potato.getCount() << endl;
 	return 0;
 }

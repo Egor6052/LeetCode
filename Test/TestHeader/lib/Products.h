@@ -21,7 +21,7 @@ private:
 
     int size;
     int *data;
-    statit int count;
+    static int count;
 
 public:
     int array[3]{1,2,3};
@@ -57,6 +57,6 @@ public:
     void Tovar(Products &valueTovar);
 };
 
-// Ініціалізація статіка;
-int Products::count = 0;
+// // Ініціалізація статіка;
+// int Products::count = 0;
 #endif // PRODUCTS_H

@@ -1,5 +1,10 @@
 #include "../lib/Products.h"
 
+
+// Ініціалізація статіка;
+int Products::count = 0;  // Ініціалізація статичної змінної
+
+
 Products::Products() {
     name = "NoName";
     price = 0;
@@ -7,7 +12,7 @@ Products::Products() {
     size = 0;
     data = nullptr;
     // Загальна кількість продуктів;
-    count += 1;
+    count ++;
 }
 
 Products::~Products() {
@@ -69,7 +74,7 @@ int* Products::getData() {
 int Products::getSize() const {
     return size;
 }
-int getCount(){
+int Products::getCount(){
     return count;
 }
 
