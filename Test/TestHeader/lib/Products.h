@@ -21,6 +21,7 @@ private:
 
     int size;
     int *data;
+    statit int count;
 
 public:
     int array[3]{1,2,3};
@@ -31,12 +32,14 @@ public:
     void setPrice(int valuePrice);
     void setWeight(double valueWeight);
     void setData(int newSize);
+    // void setCount(int valueCount);
 
     std::string getName();
     int getPrice();
     double getWeight();
     int* getData();
     int getSize() const;
+    int getCount();
 
     void Print();
 
@@ -53,4 +56,7 @@ public:
     friend void FriendlyClass::SendMessage(Products &valueProduct);
     void Tovar(Products &valueTovar);
 };
+
+// Ініціалізація статіка;
+int Products::count = 0;
 #endif // PRODUCTS_H

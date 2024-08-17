@@ -48,5 +48,7 @@ int main(){
 	friendClass.SendMessage(potato);
 	Shop shop;
     shop.Tovar(persik);
+
+    cout << "Загальнакількість продуктів: " << potato.cout << endl;
 	return 0;
 }

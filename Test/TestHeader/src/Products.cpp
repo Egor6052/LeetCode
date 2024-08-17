@@ -6,6 +6,8 @@ Products::Products() {
     weight = 0;
     size = 0;
     data = nullptr;
+    // Загальна кількість продуктів;
+    count += 1;
 }
 
 Products::~Products() {
@@ -44,6 +46,10 @@ void Products::setData(int newSize) {
     }
 }
 
+// void setCount(int valueCount){
+//     this->count = valueCount;
+// }
+
 std::string Products::getName() {
     return name;
 }
@@ -62,6 +68,9 @@ int* Products::getData() {
 
 int Products::getSize() const {
     return size;
+}
+int getCount(){
+    return count;
 }
 
 void Products::Print() {
