@@ -13,6 +13,8 @@ Products::Products() {
     data = nullptr;
     // Загальна кількість продуктів;
     count ++;
+
+    id = count;
 }
 
 Products::~Products() {
@@ -76,6 +78,10 @@ int Products::getSize() const {
 }
 int Products::getCount(){
     return count;
+}
+
+int Products::getID(){
+    return id;
 }
 
 void Products::Print() {

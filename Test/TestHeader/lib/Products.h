@@ -23,6 +23,7 @@ private:
     int *data;
     static int count;
 
+    int id;
 public:
     int array[3]{1,2,3};
     Products();
@@ -40,6 +41,7 @@ public:
     int* getData();
     int getSize() const;
     int getCount();
+    int getID();
 
     void Print();
 
