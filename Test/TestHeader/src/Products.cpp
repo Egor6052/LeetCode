@@ -76,12 +76,17 @@ int* Products::getData() {
 int Products::getSize() const {
     return size;
 }
-int Products::getCount(){
+int Products::getCount() {
     return count;
 }
 
 int Products::getID(){
     return id;
+}
+
+
+void Products::changeNames(Products & product, std::string NewName){
+    product.setName(NewName);
 }
 
 void Products::Print() {

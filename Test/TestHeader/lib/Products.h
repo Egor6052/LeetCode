@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 
+
 #include "FriendlyClass.h"
 #include "Shop.h"
 
@@ -40,7 +41,7 @@ public:
     double getWeight();
     int* getData();
     int getSize() const;
-    int getCount();
+    static int getCount();
     int getID();
 
     void Print();
@@ -57,6 +58,8 @@ public:
 
     friend void FriendlyClass::SendMessage(Products &valueProduct);
     void Tovar(Products &valueTovar);
+
+    static void changeNames(Products & product, std::string NewName);
 };
 
 // // Ініціалізація статіка;

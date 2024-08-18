@@ -49,6 +49,8 @@ int main(){
 	Shop shop;
     shop.Tovar(persik);
 
+    // Products::changeNames(banana, "NoName");
+
     cout << "Список продуктів з ID:" << "\n" 
     << "Name: " << banana.getName() << " ID: " << banana.getID() << "\n"
    	<< "Name: " << persik.getName() << " ID: " << persik.getID() << "\n"
