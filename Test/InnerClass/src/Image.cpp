@@ -49,9 +49,6 @@ void Image::Print(){
 
 
 
-
-
-
 // Внутрішній клас Pixel;
 
 Image::Pixel::Pixel(int r, int g, int b){
