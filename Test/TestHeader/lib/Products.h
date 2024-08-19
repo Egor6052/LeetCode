@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 
-
 #include "FriendlyClass.h"
 #include "Shop.h"
 
