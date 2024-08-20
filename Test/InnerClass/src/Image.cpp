@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 
-int Image::count = 0;  // Ініціалізація статичної змінної
-const int Image::size = 5;
+int Image::count = 0;
+// const int Image::size = 5;
 
 Image::Image(){
 	img = "NoName";
@@ -57,7 +57,9 @@ Image::Pixel::Pixel(int r, int g, int b){
 	this->b = b;
 }
 
-
+Image::Pixel::Pixel(){
+	r = g = b = 0;
+}
 
 Image::Pixel Image::pixels[size]{
 	Image::Pixel(543,33,123),

@@ -6,41 +6,44 @@
 #include <string>
 
 class Image {
-	private:
-		std::string img;
-		int width;
-		int height;
+private:
+    std::string img;
+    int width;
+    int height;
+    static int count;
+    int id;
+    static constexpr int size = 5; // Використання constexpr для розміру масиву
 
-		static int count;
-    	int id;
-    	static const int size;
-	public:
+public:
+    void getPixelInfo();
 
-		void getPixelInfo();
+    // Внутрішній клас Pixel
+    class Pixel {
+    private:
+        int r, g, b;
 
-		class Pixel{
-		private:
-			int r, g, b;
-		public:
-			Pixel(int r, int g, int b);
-			std::string Print();
-		};
+    public:
+        Pixel();
+        Pixel(int r, int g, int b);
+        std::string Print();
+    };
 
- 		static Pixel pixels[];
+    static Pixel pixels[size]; // Оголошення масиву статичних об'єктів класу Pixel
 
-		Image();
-		~Image();
+    Image();
+    ~Image();
 
-		void setImg(std::string valueImg);
-		void setWidth(int valueWidth);
-		void setHeight(int valueHeight);
+    void setImg(std::string valueImg);
+    void setWidth(int valueWidth);
+    void setHeight(int valueHeight);
 
-		std::string getImg(); 
-		int getWidth();
+    std::string getImg();
+    int getWidth();
 
-		static int getCount();
-    	int getID();
+    static int getCount();
+    int getID();
 
-		void Print();
+    void Print();
 };
+
 #endif
