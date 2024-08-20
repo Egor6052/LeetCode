@@ -12,7 +12,7 @@ private:
     int height;
     static int count;
     int id;
-    static constexpr int size = 5; // Використання constexpr для розміру масиву
+    static constexpr int size = 5;
 
 public:
     void getPixelInfo();
@@ -28,7 +28,7 @@ public:
         std::string Print();
     };
 
-    static Pixel pixels[size]; // Оголошення масиву статичних об'єктів класу Pixel
+    static Pixel pixels[size];
 
     Image();
     ~Image();

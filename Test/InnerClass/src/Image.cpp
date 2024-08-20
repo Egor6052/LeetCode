@@ -3,7 +3,6 @@
 #include <string>
 
 int Image::count = 0;
-// const int Image::size = 5;
 
 Image::Image(){
 	img = "NoName";
@@ -61,13 +60,7 @@ Image::Pixel::Pixel(){
 	r = g = b = 0;
 }
 
-Image::Pixel Image::pixels[size]{
-	Image::Pixel(543,33,123),
-	Image::Pixel(643,43,143),
-	Image::Pixel(743,53,163),
-	Image::Pixel(843,63,183),
-	Image::Pixel(943,73,103),
-};
+Image::Pixel Image::pixels[size];
 
 std::string Image::Pixel::Print() {
     return "Pixel RGB: (R = " + std::to_string(r) + ", G = " + std::to_string(g) + ", B = " + std::to_string(b) + ")";

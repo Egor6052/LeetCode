@@ -6,18 +6,14 @@ int main() {
     icon.setWidth(2060);
     icon.setHeight(1280);
     icon.Print();
-    icon.getPixelInfo();  // Викликає метод getPixelInfo() для об'єкта Image
+    icon.getPixelInfo();
+	std::cout << "\n" << std::endl;
+    
+    Image::pixels[0] = Image::Pixel(11, 123, 345);
 
-    // const int size = 4;
+    icon.getPixelInfo();
 
-    // Image::Pixel array[size] = {
-    //     Image::Pixel(100, 150, 200),
-    //     Image::Pixel(120, 160, 210),
-    //     Image::Pixel(140, 170, 220),
-    //     Image::Pixel(160, 180, 230)
-    // };
-
-    // std::cout << "Element 0:" << array[0].Print() << std::endl;
+    // std::cout << "Element 0:" << Image::pixels[0].Print() << std::endl;
 
     return 0;
 }
