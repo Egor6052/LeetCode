@@ -12,8 +12,9 @@ private:
     int height;
     static int count;
     int id;
-    static constexpr int size = 5;
 
+    static const int size = 5;
+    
 public:
     void getPixelInfo();
 

@@ -12,8 +12,6 @@ int main() {
     Image::pixels[0] = Image::Pixel(11, 123, 345);
 
     icon.getPixelInfo();
-
-    // std::cout << "Element 0:" << Image::pixels[0].Print() << std::endl;
-
+ 
     return 0;
 }

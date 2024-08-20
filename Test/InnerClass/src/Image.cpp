@@ -3,16 +3,25 @@
 #include <string>
 
 int Image::count = 0;
+Image::Pixel Image::pixels[size];
 
-Image::Image(){
-	img = "NoName";
-	width = 0;
-	height = 0;
-	count ++;
-	id = count;
+Image::Image() {
+    img = "NoName";
+    width = 0;
+    height = 0;
+    count++;
+    id = count;
+
+    // Ініціалізація масиву пікселів
+    for (int i = 0; i < size; ++i) {
+        pixels[i] = Pixel(0, 0, 0);
+    }
 }
 
-Image::~Image(){}
+Image::~Image() {
+    // delete[] pixels;
+}
+
 
 void Image::setImg(std::string valueImg){
 	this->img = valueImg;
@@ -60,7 +69,6 @@ Image::Pixel::Pixel(){
 	r = g = b = 0;
 }
 
-Image::Pixel Image::pixels[size];
 
 std::string Image::Pixel::Print() {
     return "Pixel RGB: (R = " + std::to_string(r) + ", G = " + std::to_string(g) + ", B = " + std::to_string(b) + ")";
