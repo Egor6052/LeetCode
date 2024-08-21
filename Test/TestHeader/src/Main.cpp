@@ -57,5 +57,6 @@ int main(){
    	<< "Name: " << potato.getName() << " ID: " << potato.getID() << "\n" << endl;
 
    	cout << "Загальнакількість продуктів: " << potato.getCount() << endl;
+	cout << "Загальна сума: " << banana.getPrice() + persik.getPrice() + potato.getPrice() << endl;
 	return 0;
 }
