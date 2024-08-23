@@ -5,6 +5,15 @@
 #include <iostream>
 #include <string>
 
+
+class Monitor {
+private:
+    std::string monitor = "DELL";
+public:
+    std::string getMonitor();
+};
+
+
 class Image {
 private:
     std::string img;
@@ -55,6 +64,10 @@ public:
     // Публічні методи для роботи з пікселями
     static void setPixel(int index, int r, int g, int b);
     static Pixel getPixel(int index);
+
+    void ModelMonitor();
+
+    Monitor monitor;
 };
 
 #endif

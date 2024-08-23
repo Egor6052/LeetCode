@@ -15,6 +15,7 @@ int main() {
     icon.getPixelInfo();
 
     icon.Output();
+    icon.ModelMonitor();
 
     return 0;
 }

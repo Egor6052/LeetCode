@@ -101,3 +101,13 @@ Image::Pixel Image::getPixel(int index) {
     }
     return Pixel(); // Повертаємо чорний піксель за замовчуванням, якщо індекс поза межами
 }
+
+
+std::string Monitor::getMonitor(){
+	return monitor;
+}
+
+void Image::ModelMonitor(){
+
+	std::cout << "Monitor: " << Image::monitor.getMonitor() << std::endl;
+}
