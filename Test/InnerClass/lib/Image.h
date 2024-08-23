@@ -14,9 +14,6 @@ private:
     int id;
 
     static const int size = 5;
-    
-public:
-    void getPixelInfo();
 
     // Внутрішній клас Pixel
     class Pixel {
@@ -27,10 +24,14 @@ public:
         Pixel();
         Pixel(int r, int g, int b);
         std::string Print();
+        // Друзі класу Pixel для доступу до приватних членів
+        friend class Image;
     };
 
     static Pixel pixels[size];
 
+public:
+    void getPixelInfo();
     Image();
     ~Image();
 
@@ -40,11 +41,14 @@ public:
 
     std::string getImg();
     int getWidth();
-
     static int getCount();
     int getID();
 
     void Print();
+
+    // Публічні методи для роботи з пікселями
+    static void setPixel(int index, int r, int g, int b);
+    static Pixel getPixel(int index);
 };
 
 #endif

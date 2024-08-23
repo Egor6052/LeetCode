@@ -3,7 +3,7 @@
 #include <string>
 
 int Image::count = 0;
-Image::Pixel Image::pixels[size];
+Image::Pixel Image::pixels[Image::size];
 
 Image::Image() {
     img = "NoName";
@@ -79,4 +79,17 @@ void Image::getPixelInfo() {
     for (int i = 0; i < Image::size; i++) {
         std::cout << Image::pixels[i].Print() << std::endl;
     }
+}
+
+void Image::setPixel(int index, int r, int g, int b) {
+    if (index >= 0 && index < size) {
+        pixels[index] = Pixel(r, g, b);
+    }
+}
+
+Image::Pixel Image::getPixel(int index) {
+    if (index >= 0 && index < size) {
+        return pixels[index];
+    }
+    return Pixel(); // Повертаємо чорний піксель за замовчуванням, якщо індекс поза межами
 }

@@ -7,11 +7,12 @@ int main() {
     icon.setHeight(1280);
     icon.Print();
     icon.getPixelInfo();
-	std::cout << "\n" << std::endl;
-    
-    Image::pixels[0] = Image::Pixel(11, 123, 345);
+    std::cout << "\n" << std::endl;
+
+    // Використовуємо публічний метод для встановлення значення пікселя
+    icon.setPixel(0, 11, 123, 345);
 
     icon.getPixelInfo();
- 
+
     return 0;
 }
