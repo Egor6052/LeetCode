@@ -14,5 +14,7 @@ int main() {
 
     icon.getPixelInfo();
 
+    icon.Output();
+
     return 0;
 }

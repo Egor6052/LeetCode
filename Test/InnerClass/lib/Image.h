@@ -19,11 +19,13 @@ private:
     class Pixel {
     private:
         int r, g, b;
-
     public:
         Pixel();
         Pixel(int r, int g, int b);
         std::string Print();
+
+        void Output();
+
         // Друзі класу Pixel для доступу до приватних членів
         friend class Image;
     };
@@ -31,6 +33,10 @@ private:
     static Pixel pixels[size];
 
 public:
+
+    Pixel pixel;
+
+    void Output();
     void getPixelInfo();
     Image();
     ~Image();

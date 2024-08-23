@@ -33,6 +33,14 @@ void Image::setHeight(int valueHeight){
 	this->height = valueHeight;
 }
 
+void Image::Output(){
+	Image::pixel.Output();
+}
+
+void Image::Pixel::Output(){
+    std::cout << "Output image..." << std::endl;
+}
+
 
 std::string Image::getImg(){
 	return img;
