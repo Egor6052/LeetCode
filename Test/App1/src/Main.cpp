@@ -1,4 +1,5 @@
 #include "../lib/Table.h"
+#include "../lib/Array.h"
 
 int main()
 {
@@ -11,6 +12,9 @@ int main()
 	table.setY(y);
 
 	table.Print();
+	Array array1;
+	array1.setArray(x, y);
 
+	array1.getArray();
 	return 0;
 }
