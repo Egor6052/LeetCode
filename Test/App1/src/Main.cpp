@@ -5,8 +5,11 @@ int main()
 {
 	std::cout << "...Table app..." << std::endl;
 	Table table;
-	int x = 10;
-	int y = 10;
+	int x, y;
+	std::cout << "Enter the array (x, y): \n x = " << std::endl;
+	std::cin >> x;
+	std::cout << "\ny = " << std::endl;
+	std::cin >> y;
 
 	table.setX(x);
 	table.setY(y);

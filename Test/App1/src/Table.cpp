@@ -23,5 +23,5 @@ int Table::getY(){
 }
 
 void Table::Print(){
-	std::cout << "X = " << x  << "; Y = " << y << ";" << std::endl;
+	std::cout << "Columns = " << x  << "; lines = " << y << ";" << std::endl;
 }

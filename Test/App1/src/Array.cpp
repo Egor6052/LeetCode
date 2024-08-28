@@ -21,20 +21,21 @@ void Array::setArray(int valueX, int valueY) {
 
     array = new int*[x];
     for (int i = 0; i < x; ++i) {
-        array[i] = new int[y];
+        array[i] = new int[x];
     }
 
-    for (int i = 0; i < x; ++i) {
-        for (int j = 0; j < y; ++j) {
-            array[i][j] = j + 1;
+    for (int i = 0; i < y; ++i) {
+        for (int j = 0; j < x; ++j) {
+            std::cout << "Enter number to " << i << " line, " << j << " Columns" << std::endl;
+            std::cin >> array[i][j];
         }
     }
 }
 
 int* Array::getArray() {
     std::cout << "Array: [ \n";
-    for (int i = 0; i < this->x; ++i) {
-        for (int j = 0; j < this->y; ++j) {
+    for (int i = 0; i < this->y; ++i) {
+        for (int j = 0; j < this->x; ++j) {
             std::cout << array[i][j] << " ";
         }
         std::cout << std::endl;
