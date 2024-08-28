@@ -7,8 +7,9 @@
 class Array : public Table {
 	private: 
 	    int** array;
-	    int valueX;
-	    int valueY;
+	    int x;
+	    int y;
+
 	public:
 		Array();
 		~Array();

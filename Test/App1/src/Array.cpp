@@ -1,14 +1,14 @@
 #include "../lib/Array.h"
 
 Array::Array() {
-    this->valueX = 0;
-    this->valueY = 0;
+    this->x = 0;
+    this->y = 0;
     array = nullptr;
 }
 
 Array::~Array() {
     if (array != nullptr) {
-        for (int i = 0; i < valueX; ++i) {
+        for (int i = 0; i < x; ++i) {
             delete[] array[i];
         }
         delete[] array;
@@ -16,16 +16,16 @@ Array::~Array() {
 }
 
 void Array::setArray(int valueX, int valueY) {
-    this->valueX = valueX;
-    this->valueY = valueY;
+    this->x = valueX;
+    this->y = valueY;
 
-    array = new int*[valueX];
-    for (int i = 0; i < valueX; ++i) {
-        array[i] = new int[valueY];
+    array = new int*[x];
+    for (int i = 0; i < x; ++i) {
+        array[i] = new int[y];
     }
 
-    for (int i = 0; i < valueX; ++i) {
-        for (int j = 0; j < valueY; ++j) {
+    for (int i = 0; i < x; ++i) {
+        for (int j = 0; j < y; ++j) {
             array[i][j] = j + 1;
         }
     }
@@ -33,15 +33,15 @@ void Array::setArray(int valueX, int valueY) {
 
 int* Array::getArray() {
     std::cout << "Array: [ \n";
-    for (int i = 0; i < this->valueX; ++i) {
-        for (int j = 0; j < this->valueY; ++j) {
+    for (int i = 0; i < this->x; ++i) {
+        for (int j = 0; j < this->y; ++j) {
             std::cout << array[i][j] << " ";
         }
         std::cout << std::endl;
     }
     std::cout << " ]" << std::endl;
 
-    if (valueX > 0 && valueY > 0) {
+    if (x > 0 && y > 0) {
         return array[0];
     } else {
         return nullptr;
