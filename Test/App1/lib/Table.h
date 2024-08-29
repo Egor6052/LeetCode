@@ -7,17 +7,17 @@
 
 class Table{
 	private:
-		int x, y;
+		int line, column;
 
 	public:
 	Table();
 	~Table();
 
-	void setX(int valueX);
-	void setY(int valueY);
+	void setLine(int valueLine);
+	void setColumn(int valueColumn);
 
-	int getx();
-	int getY();
+	int getLine();
+	int getColumn();
 
 	void Print();
 };

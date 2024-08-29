@@ -1,27 +1,27 @@
 #include "../lib/Table.h"
 
 Table::Table(){
-	this->x = 0;
-	this->y = 0;
+	this->column = 0;
+	this->line = 0;
 }
 Table::~Table(){}
 
-void Table::setX(int valueX){
-	this->x = valueX;
+void Table::setColumn(int valueColumn){
+	this->column = valueColumn;
 }
 
-void Table::setY(int valueY){
-	this->y = valueY;
+void Table::setLine(int valueLine){
+	this->line = valueLine;
 }
 
-int Table::getx(){
-	return x;
+int Table::getColumn(){
+	return column;
 }
 
-int Table::getY(){
-	return y;
+int Table::getLine(){
+	return line;
 }
 
 void Table::Print(){
-	std::cout << "Columns = " << x  << "; lines = " << y << ";" << std::endl;
+	std::cout << "lines = " << line  << "; column = " << column << ";" << std::endl;
 }

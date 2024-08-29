@@ -7,13 +7,13 @@
 class Array : public Table {
 	private: 
 	    int** array;
-	    int x;
-	    int y;
+	    int line;
+	    int column;
 
 	public:
 		Array();
 		~Array();
-		void setArray(int valueX, int valueY);
+		void setArray(int valueLine, int valueColumn);
 
 		int* getArray();
 };
