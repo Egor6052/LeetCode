@@ -4,7 +4,7 @@
 #include "../lib/Computer.h"
 
 Computer::Computer(){
-	namePC = "NoName";
+	namePC = "-";
 	addresLocalNetwork = "-";
 	IP = "-";
 	MAC = "-";

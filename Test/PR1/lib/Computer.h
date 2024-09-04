@@ -22,16 +22,16 @@ public:
 	Computer();
 	~Computer();
 
-	void setNamePC();
-	void setAddresLocalNetwork();
-	void setIP();
-	void setMAC();
-	void setTechnologyLocalNetwork();
-	void setNetworkAdress();
-	void setNetworkMask();
-	void setGatewayAdress();
-	void setInterface();
-	void setMetrics();
+	// void setNamePC(std::string value);
+	// void setAddresLocalNetwork(std::string value);
+	// void setIP(std::string value);
+	// void setMAC(std::string value);
+	// void setTechnologyLocalNetwork(std::string value);
+	// void setNetworkAdress(std::string value);
+	// void setNetworkMask(std::string value);
+	// void setGatewayAdress(std::string value);
+	// void setInterface(std::string value);
+	// void setMetrics(std::string value);
 	
 	std::string getNamePC();
 	std::string getAddresLocalNetwork();
@@ -44,9 +44,13 @@ public:
 	std::string getInterface();
 	std::string getMetrics();
 
-	void ping(std::string valueAddress1, std::string valueAddress2, std::string valueAddress3);
-	void traceroute(std::string valueAddress1, std::string valueAddress2, std::string valueAddress3);
-	void nslookup(std::string valueAddress1, std::string valueAddress2, std::string valueAddress3);
+	// void setPing(std::string valueAddress1, std::string valueAddress2, std::string valueAddress3);
+	// void setTraceroute(std::string valueAddress1, std::string valueAddress2, std::string valueAddress3);
+	// void setNslookup(std::string valueAddress1, std::string valueAddress2, std::string valueAddress3);
+
+	void ping();
+	void traceroute();
+	void nslookup();
 
 	void Print();
 };
