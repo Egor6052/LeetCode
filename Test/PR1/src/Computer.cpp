@@ -17,3 +17,10 @@ Computer::Computer(){
 }
 
 Computer::~Computer(){ }
+
+
+void Computer::error(const char* valueError){
+	std::cerr << valueError << "\n";
+	exit(1);
+}
+

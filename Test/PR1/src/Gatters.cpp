@@ -10,10 +10,10 @@ std::string execCommand(const std::string& cmd) {
     // Відкриваємо процес для виконання команди
     FILE* pipe = popen(cmd.c_str(), "r");
     if (!pipe) {
-        throw std::runtime_error("popen() failed!");
+        Computer::error("failed!");
     }
     
-    // тут 128 - розмір буфера для зберігання hезультату
+    // тут 128 - розмір буфера для зберігання результату
     char buffer[128];
     while (fgets(buffer, sizeof(buffer), pipe)) {
         result += buffer;

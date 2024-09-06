@@ -52,6 +52,8 @@ public:
 	void traceroute();
 	void nslookup();
 
+	static void error(const char* valueError);
+
 	void Print();
 };
 
