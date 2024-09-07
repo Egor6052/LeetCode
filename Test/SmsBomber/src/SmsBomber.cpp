@@ -34,8 +34,8 @@ std::string SmsBomber::getBody(){
 }
 
 
-const std::string ACCOUNT_SID = "ACdf0a639c529f371431229850f38c913b";
-const std::string AUTH_TOKEN = "b4f8f77e4b9e30ff3e6cd24fe4be1fc1";
+const std::string ACCOUNT_SID = "Your SID";
+const std::string AUTH_TOKEN = "Your TOKEN";
 
 void SmsBomber::sendSMS(const std::string& toNumber, const std::string& from, const std::string& body) {
     CURL* curl;
