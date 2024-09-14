@@ -5,8 +5,9 @@
 
 #include <iostream>
 #include <string>
+#include "A.h"
 
-class B {
+class B : public A {
 public:
 	std::string name;
 
