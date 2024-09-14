@@ -8,7 +8,7 @@
 
 class A {
 public:
-	std::string name;
+	std::string AName;
 
 	A();
 	~A();

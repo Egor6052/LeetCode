@@ -9,7 +9,7 @@
 
 class B : public A {
 public:
-	std::string name;
+	std::string BName;
 
 	B();
 	~B();

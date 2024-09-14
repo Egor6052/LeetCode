@@ -3,8 +3,8 @@
 #include <string>
 
 A::A(){
-	this->name = "I`m class A";
-	std:: cout << name << std::endl;
+	this->AName = "I`m class A";
+	std:: cout << AName << std::endl;
 }
 
 A::~A(){

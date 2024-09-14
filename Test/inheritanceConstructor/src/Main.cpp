@@ -2,10 +2,10 @@
 #include <string>
 #include "../lib/A.h"
 #include "../lib/B.h"
+#include "../lib/C.h"
 
 
 int main(){
-	A a;
-	B b;
+	C c;
 	return 0;
 };
