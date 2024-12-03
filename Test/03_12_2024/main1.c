@@ -1,27 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void func1(int valueNumber, int valueSearchNumber);
+void search(int valueNumber, int valueSearchNumber);
+void matrix(int valueX, int valueY, int MAX, int MIN);
+int getCount();
 
 int main() {
-    int N = 20;
-    int M = 20;
+    int X, Y;
 
-    int min = 0;
-    int max = 10;
+    printf("Enter the matrix size. X: ");
+    scanf("%d", &Y);
+    printf("Enter the matrix size. Y: ");
+    scanf("%d", &X);
 
-    int array[N][M];
-    int searchNumber = 9;
+    int min, max;
+    printf("Enter max generated number: ");
+    scanf("%d", &max);
+    printf("Enter min generated number: ");
+    scanf("%d", &min);
 
+    matrix(X, Y, max, min);
+    return 0;
+}
+
+void matrix(int valueX, int valueY, int MAX, int MIN){
     int allNumbers = 0;
 
-    for (int i = 0; i < N-1; i++) {
-        for (int j = 0; j < M-1; j++) {
-            array[i][j] = (rand() % (max - min + 1)) + min;
-            array[i][j] = (rand() % (max - min + 1)) + min;
+    int array[valueX][valueY];
+    int searchNumber;
+
+    printf("Enter the desired number: ");
+    scanf("%d", &searchNumber);
+
+    for (int i = 0; i < valueX; i++) {
+        for (int j = 0; j < valueY; j++) {
+            array[i][j] = (rand() % (MAX - MIN + 1)) + MIN;
+            array[i][j] = (rand() % (MAX - MIN + 1)) + MIN;
 
             if (array[i][j] == searchNumber) {
-                func1(array[i][j], searchNumber);
+                search(array[i][j], searchNumber);
                 allNumbers += 1;
             } else {
                 if (array[i][j] / 10 == 0){
@@ -34,15 +51,12 @@ int main() {
         }
         printf("\n");
     }
-
-    printf("All found numbers: \033[31m[ %d ]\033[0m\n", allNumbers);
     
+    printf("All found numbers: \033[31m[ %d ]\033[0m\n", allNumbers);
 
-    return 0;
 }
 
-
-void func1(int valueNumber, int valueSearchNumber){
+void search(int valueNumber, int valueSearchNumber){
     if (valueNumber == valueSearchNumber){
         printf("\033[32m[ %d ]\033[0m", valueNumber);
     }
