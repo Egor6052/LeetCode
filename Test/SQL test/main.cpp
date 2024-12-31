@@ -1,45 +1,33 @@
-#include "table_schema.json"
 #include <pqxx/pqxx>
-#include <fstream>
-#include <sstream>
 #include <iostream>
 
-std::string generateTableSQL(const nlohmann::json &schema) {
-    std::ostringstream sql;
-    sql << "CREATE TABLE IF NOT EXISTS " << schema["table_name"] << " (";
-    for (const auto &column : schema["columns"]) {
-        sql << column["name"] << " " << column["type"];
-        if (column.contains("constraints")) {
-            sql << " " << column["constraints"];
+void createDatabase(const std::string &dbName, const std::string &user, const std::string &password) {
+    try {
+        // Підключення до бази даних 'postgres'
+        pqxx::connection conn("dbname=postgres user=" + user + " password=" + password);
+        if (conn.is_open()) {
+            std::cout << "Підключено до системної бази даних 'postgres'.\n";
+        } else {
+            std::cerr << "Не вдалося підключитися до бази даних.\n";
+            return;
         }
-        sql << ", ";
+
+        // Створення бази даних
+        pqxx::work txn(conn);
+        txn.exec("CREATE DATABASE " + dbName);
+        txn.commit();
+
+        std::cout << "Базу даних '" << dbName << "' успішно створено!\n";
+    } catch (const std::exception &e) {
+        std::cerr << "Помилка: " << e.what() << '\n';
     }
-    sql.seekp(-2, std::ios_base::end);
-    sql << ")";
-    return sql.str();
 }
 
 int main() {
-    try {
-        std::ifstream file("table_schema.json");
-        if (!file.is_open()) {
-            throw std::runtime_error("Не вдалося відкрити файл table_schema.json");
-        }
+    const std::string dbName = "sensor_data";
+    const std::string user = "your_user";
+    const std::string password = "your_password";
 
-        nlohmann::json schema;
-        file >> schema;
-
-        pqxx::connection conn("dbname=cpp_db user=cpp_user password=958432023");
-        pqxx::work txn(conn);
-
-        std::string createTableSQL = generateTableSQL(schema);
-        txn.exec(createTableSQL);
-        txn.commit();
-
-        std::cout << "Таблицю створено успішно!" << std::endl;
-    } catch (const std::exception &e) {
-        std::cerr << "Помилка: " << e.what() << std::endl;
-        return 1;
-    }
+    createDatabase(dbName, user, password);
     return 0;
 }
