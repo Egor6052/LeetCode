@@ -13,7 +13,6 @@ void createDatabase(pqxx::connection &conn, const std::string &dbName) {
     }
 }
 
-
 void createTable(pqxx::connection &conn, const std::string &tableName) {
     try {
         pqxx::work txn(conn);
