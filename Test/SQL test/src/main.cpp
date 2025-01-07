@@ -1,23 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "../lib/User.h"
 
 int main(){
     User user;
-    printf("\033[35m Create DB! \033[0m\n ---- Instalation ----\n Y/N? ");
+    std::string answer;
 
-    char answer;
-    answer = getchar();
+    printf("\033[35m Create DB! \033[0m\n ---- Instalation ----\n Y/N? ");
+    std::cin >> answer;
+    std::cin.ignore();
     user.installDB(answer);
 
     printf("--- Create User ---\n Y/N?");
-    answer = getchar();
+    std::cin >> answer;
+    std::cin.ignore();
     user.CreateUser(answer);
 
-    //  const char *command = "echo 'This is a test command' && ls -l";
-
-    // // Виконання команди
-    // int result = system(command);
 
     return 0;
 }

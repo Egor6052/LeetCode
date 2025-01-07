@@ -1,3 +1,4 @@
+
 # Installation and initialization of the postgresql server
 
 sudo dnf install postgresql-server postgresql-contrib

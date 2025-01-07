@@ -9,6 +9,7 @@ class User {
 
 private:
     int id;
+    std::string userName, userPassword;
 
 public:
     User();
@@ -17,8 +18,15 @@ public:
     void setID(int valueID);
     int getID();
 
-    void installDB(char valueAnswer);
-    void CreateUser(char valueAnswer);
+    void setUserName(std::string nameValue);
+    void setUserPassword(std::string passwordValue);
+
+    std::string getUserName();
+    std::string getUserPassword();
+
+
+    void installDB(std::string valueAnswer);
+    void CreateUser(std::string valueAnswer);
 
 };
 
