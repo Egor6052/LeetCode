@@ -11,6 +11,9 @@ private:
     int id;
     std::string userName, userPassword;
 
+// DB: server
+// User: user1
+
 public:
     User();
     ~User();
