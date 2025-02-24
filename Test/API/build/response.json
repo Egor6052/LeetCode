@@ -1,0 +1,62 @@
+{
+    "navigation": {
+        "attitude": {
+            "$source": "pypilot",
+            "meta": {
+                "description": "Vessel attitude: roll, pitch and yaw",
+                "properties": {
+                    "pitch": {
+                        "description": "Pitch, +ve is bow up",
+                        "type": "number",
+                        "units": "rad"
+                    },
+                    "roll": {
+                        "description": "Vessel roll, +ve is list to starboard",
+                        "type": "number",
+                        "units": "rad"
+                    },
+                    "yaw": {
+                        "description": "Yaw, +ve is heading change to starboard",
+                        "type": "number",
+                        "units": "rad"
+                    }
+                }
+            },
+            "timestamp": "2025-02-24T14:26:43.976Z",
+            "value": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+            }
+        }
+    },
+    "uuid": "urn:mrn:signalk:uuid:86aec9e4-b3da-437b-aca5-77feb889487d",
+    "validation": {
+        "GPIO": {
+            "$source": "OpenPlotter",
+            "meta": {},
+            "timestamp": "2025-02-24T14:26:40.764Z",
+            "value": "a5567276-64e2-4dc2-a1fa-b8c3e16d15ae"
+        },
+        "I2C": {
+            "$source": "OpenPlotter",
+            "meta": {
+                "description": "AC equipment common qualities"
+            },
+            "timestamp": "2025-02-24T14:26:44.977Z",
+            "value": "33ccfc0c-2d02-4fa7-9ad8-9a0db645bd91"
+        },
+        "NOTIFICATIONS": {
+            "$source": "OpenPlotter",
+            "meta": {},
+            "timestamp": "2025-02-24T14:26:45.421Z",
+            "value": "241ee187-c714-457a-81b3-a90d7eae77d9"
+        },
+        "PYPILOT": {
+            "$source": "OpenPlotter",
+            "meta": {},
+            "timestamp": "2025-02-24T14:26:45.187Z",
+            "value": "3cb6b7ac-3ec8-43c3-8e99-2ee329f64964"
+        }
+    }
+}
