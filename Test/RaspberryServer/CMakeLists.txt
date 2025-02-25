@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 # Назва проекту
-project(API_tester)
+project(API_server)
 
 # Опція для використання статичних бібліотек
 option(USE_STATIC "Use static library" ON)

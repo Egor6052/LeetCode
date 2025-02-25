@@ -8,6 +8,7 @@
 class API {
     private:
         std::string api;
+        std::string pathJSON;
 
     public:
         API();
@@ -15,6 +16,8 @@ class API {
 
         // std::string getCurrentDateTime();
         void stream();
+
+        void sendToRaspberry();
 
 };
 

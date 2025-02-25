@@ -6,16 +6,19 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <cstring>
-#include <nlohmann/json.hpp>  // JSON бібліотека
+#include <nlohmann/json.hpp>
 #include "../../lib/API.h"
 
 #define BUFFER_SIZE 4096
 
 API::API() {
     this->api = "192.168.10.212";
+    this->pathJSON = "../work.json";
 }
 
 API::~API() {}
+
+
 
 void API::stream() {
     int sock = socket(AF_INET, SOCK_STREAM, 0);

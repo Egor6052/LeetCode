@@ -3,8 +3,11 @@
 #include "../lib/API.h"
 
 int main() {
-    API api;
-    api.stream();
+    // API api;
+    // api.stream();
+
+    API uart;
+    uart.sendToRaspberry();
 
     return 0;
 }
