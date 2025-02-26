@@ -7,7 +7,8 @@
 
 class API {
     private:
-        std::string api;
+        std::string ip;
+        std::string apiGetJson;
         std::string pathJSON;
 
     public:
@@ -17,7 +18,13 @@ class API {
         // std::string getCurrentDateTime();
         void stream();
 
+        void setJsonPath(std::string valuePathJSON);
+
+        std::string getJSON();
         void sendToRaspberry();
+        void logData();
+        
+        std::string getCurrentDateTime();
 
 };
 

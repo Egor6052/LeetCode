@@ -12,13 +12,12 @@
 #define BUFFER_SIZE 4096
 
 API::API() {
-    this->api = "192.168.10.212";
-    this->pathJSON = "../work.json";
+    this->ip = "192.168.100.1";
+    this->pathJSON = "";
+    this->apiGetJson = "http://192.168.100.1:3000/signalk/v1/api/sources";
 }
 
 API::~API() {}
-
-
 
 void API::stream() {
     int sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -30,7 +29,7 @@ void API::stream() {
     struct sockaddr_in server{};
     server.sin_family = AF_INET;
     server.sin_port = htons(3000);
-    inet_pton(AF_INET, api.c_str(), &server.sin_addr);
+    inet_pton(AF_INET, ip.c_str(), &server.sin_addr);
 
     if (connect(sock, (struct sockaddr*)&server, sizeof(server)) < 0) {
         std::cerr << "Помилка підключення до сервера!" << std::endl;
