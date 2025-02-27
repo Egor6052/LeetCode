@@ -1,0 +1,3 @@
+/home/admin1/Стільниця/servo/build/CMakeFiles/start.dir
+/home/admin1/Стільниця/servo/build/CMakeFiles/edit_cache.dir
+/home/admin1/Стільниця/servo/build/CMakeFiles/rebuild_cache.dir

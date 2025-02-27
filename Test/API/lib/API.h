@@ -15,15 +15,15 @@ class API {
         API();
         ~API();
 
-        // std::string getCurrentDateTime();
         void stream();
 
         void setJsonPath(std::string valuePathJSON);
-
         std::string getJSON();
+        
         void sendToRaspberry();
         void logData();
         
+        char getChar();
         std::string getCurrentDateTime();
 
 };
