@@ -1,0 +1,3 @@
+/home/admin1/Стільниця/Робота/j1939/CanReader/build/CMakeFiles/start.dir
+/home/admin1/Стільниця/Робота/j1939/CanReader/build/CMakeFiles/edit_cache.dir
+/home/admin1/Стільниця/Робота/j1939/CanReader/build/CMakeFiles/rebuild_cache.dir

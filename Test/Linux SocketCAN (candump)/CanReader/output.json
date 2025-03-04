@@ -1,0 +1,3086 @@
+[
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.592108
+    },
+    {
+        "data": "0004A301E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.600095
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.601074
+    },
+    {
+        "data": "0080000009FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.601563
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.610116
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.611078
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.611569
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.620092
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.631091
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.63158
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.640092
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.651068
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.651559
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.652055
+    },
+    {
+        "data": "0080000026FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.652551
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752017.656855
+    },
+    {
+        "data": "0004A501E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.660103
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.660623
+    },
+    {
+        "data": "0004A500C3000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.661114
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.661594
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.665099
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.670122
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.671096
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.671588
+    },
+    {
+        "data": "020261038F000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.672067
+    },
+    {
+        "data": "0332000400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.675144
+    },
+    {
+        "data": "00049D01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.6801
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.680623
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.681105
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.691093
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.69158
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.692064
+    },
+    {
+        "data": "43414E58534F",
+        "id": "691",
+        "interface": "can0",
+        "timestamp": 1740752017.698453
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.700175
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.701095
+    },
+    {
+        "data": "008000003FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.701611
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.710115
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.711083
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.711575
+    },
+    {
+        "data": "0004A201E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.720083
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.731063
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.731548
+    },
+    {
+        "data": "00049B01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.740092
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.751048
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.751538
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.752034
+    },
+    {
+        "data": "008000003FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.752535
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752017.756839
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.760099
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.760631
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.761115
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.761598
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.765115
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.770127
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.771099
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.77159
+    },
+    {
+        "data": "020261038F000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.772071
+    },
+    {
+        "data": "0332320400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.77515
+    },
+    {
+        "data": "0004A001E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.780122
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.780634
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.781165
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.79113
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.791639
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.792122
+    },
+    {
+        "data": "00049D01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.80009
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.801094
+    },
+    {
+        "data": "008000003FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.801594
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.810126
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.811115
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.811619
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.820105
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.831095
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.831587
+    },
+    {
+        "data": "0004A001E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.840099
+    },
+    {
+        "data": "0209",
+        "id": "00000B91",
+        "interface": "can0",
+        "timestamp": 1740752017.847177
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.851081
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.851573
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.852069
+    },
+    {
+        "data": "008000003FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.852569
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752017.856833
+    },
+    {
+        "data": "0004A001E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.860104
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.860638
+    },
+    {
+        "data": "0004A500C3000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.86113
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.86161
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.86511
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.870123
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.871116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.871612
+    },
+    {
+        "data": "020261038F00007F",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.872092
+    },
+    {
+        "data": "0332320400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.875142
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.880103
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.880622
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.881125
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.891105
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.891597
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.892081
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.900093
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.901074
+    },
+    {
+        "data": "0080000054FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.901565
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.910119
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.911097
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.911589
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.920101
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.931086
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.931572
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.940093
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.951086
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.951587
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.952077
+    },
+    {
+        "data": "008000006DFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752017.952573
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752017.956866
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.960094
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752017.960626
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.961113
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.961593
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.965106
+    },
+    {
+        "data": "02F901E5003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.970127
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.97113
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.971605
+    },
+    {
+        "data": "020261038F00007F",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.972085
+    },
+    {
+        "data": "0332640400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.975136
+    },
+    {
+        "data": "00049D01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752017.9801
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752017.980618
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.981102
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752017.991116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752017.991613
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752017.992098
+    },
+    {
+        "data": "00049D01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.000089
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.001145
+    },
+    {
+        "data": "008000006DFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.00164
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.010123
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.011128
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.01162
+    },
+    {
+        "data": "00049B01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.0201
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.031168
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.031656
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.040097
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.051088
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.051585
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.05208
+    },
+    {
+        "data": "0080000082FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.05258
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.056876
+    },
+    {
+        "data": "0004A101E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.060106
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.06064
+    },
+    {
+        "data": "0004A500C3000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.061134
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.061612
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.065117
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.070131
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.071148
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.07164
+    },
+    {
+        "data": "020261038F0000FF",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.072119
+    },
+    {
+        "data": "0332640400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.075152
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.080104
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.080619
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.081175
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.091103
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.091601
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.092083
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.100095
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.101127
+    },
+    {
+        "data": "0080000097FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.101634
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.110128
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.111087
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.111578
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.120095
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.131075
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.131559
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.140095
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.151086
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.15158
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.152074
+    },
+    {
+        "data": "0080000097FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.152582
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.156835
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.160098
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.16063
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.161118
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.161597
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.165107
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.170148
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.171098
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.171599
+    },
+    {
+        "data": "020261038F0000FF",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.172077
+    },
+    {
+        "data": "0332000400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.175145
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.180101
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.180618
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.181101
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.191078
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.191568
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.192075
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.200087
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.201115
+    },
+    {
+        "data": "0080000097FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.201606
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.210115
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.211104
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.211595
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.220087
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.231064
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.231555
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.240098
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.251063
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.251554
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.252082
+    },
+    {
+        "data": "0080000097FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.25259
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.256866
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.260099
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.26063
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.261113
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.261597
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.265111
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.270127
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.271099
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.27159
+    },
+    {
+        "data": "020261038F000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.272071
+    },
+    {
+        "data": "0332000400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.275155
+    },
+    {
+        "data": "00049D01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.280098
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.280622
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.281105
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.291127
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.291618
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.292101
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.300087
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.301106
+    },
+    {
+        "data": "00800000B0FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.301601
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.310121
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.311085
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.311578
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.320097
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.331094
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.331583
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.340106
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.351067
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.351558
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.3520541
+    },
+    {
+        "data": "00800000C9FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.35255
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.356822
+    },
+    {
+        "data": "0004A501E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.360104
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.36063
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.361113
+    },
+    {
+        "data": "0004A500C3000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.361601
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.365102
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.370121
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.371134
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.371625
+    },
+    {
+        "data": "020261038F000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.372105
+    },
+    {
+        "data": "0332320400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.375142
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.380109
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.380626
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.38114
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.391073
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.391565
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.392049
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.400097
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.401109
+    },
+    {
+        "data": "00800000C9FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.401604
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.410121
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.411109
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.411613
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.420085
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.43111
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.431568
+    },
+    {
+        "data": "0004A201E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.440085
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.451066
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.451557
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.452052
+    },
+    {
+        "data": "00800000DEFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.452545
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.456822
+    },
+    {
+        "data": "00049B01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.460102
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.460629
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.461117
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.461597
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.465098
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.47012
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.471116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.471608
+    },
+    {
+        "data": "020261038F00007F",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.472088
+    },
+    {
+        "data": "0332320400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.475154
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.480101
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.480621
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.481125
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.491074
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.491566
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.492048
+    },
+    {
+        "data": "00049B01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.500093
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.501105
+    },
+    {
+        "data": "00800000F3FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.5016
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.510112
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.511116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.511608
+    },
+    {
+        "data": "00049D01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.520114
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.531109
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.5316
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.540084
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.551124
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.551616
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.552112
+    },
+    {
+        "data": "00800000F3FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.552608
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.55734
+    },
+    {
+        "data": "00049B01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.560096
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.560624
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.561111
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.561591
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.565108
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.570124
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.571092
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.571583
+    },
+    {
+        "data": "020261038F00007F",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.572062
+    },
+    {
+        "data": "0332640400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.575143
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.580096
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.58062
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.581103
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.591095
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.591586
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.59207
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.600087
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.601114
+    },
+    {
+        "data": "00800000F3FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.60161
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.610114
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.611118
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.61161
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.620086
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.631066
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.631558
+    },
+    {
+        "data": "0004A201E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.64009
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.651078
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.651582
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.652077
+    },
+    {
+        "data": "00800000F3FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.652574
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.656829
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.660092
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.660627
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.661116
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.66159
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.665101
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.67012
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.671133
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.671628
+    },
+    {
+        "data": "020261038F0000FF",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.672111
+    },
+    {
+        "data": "0332640400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.675137
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.680097
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.680611
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.681124
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.691113
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.69161
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.69209
+    },
+    {
+        "data": "43414E58534F",
+        "id": "691",
+        "interface": "can0",
+        "timestamp": 1740752018.698432
+    },
+    {
+        "data": "0004A001E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.700205
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.701094
+    },
+    {
+        "data": "008000000CFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.701594
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.710113
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.711117
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.711608
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.720117
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.731113
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.731601
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.740081
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.751117
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.751609
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.752105
+    },
+    {
+        "data": "0080000025FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.752596
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.756829
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.760093
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.760624
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.761108
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.761592
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.765104
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.770121
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.771125
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.771615
+    },
+    {
+        "data": "020261038F0000FF",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.772131
+    },
+    {
+        "data": "0332000400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.775148
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.780093
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.780612
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.781096
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.791144
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.791635
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.792119
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.800092
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.801165
+    },
+    {
+        "data": "0080000025FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.80166
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.810115
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.811123
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.811615
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.820081
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.8310919
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.831583
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.840083
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.851093
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.851583
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.852079
+    },
+    {
+        "data": "008000003AFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.852602
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.856859
+    },
+    {
+        "data": "0004A101E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.860092
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.860623
+    },
+    {
+        "data": "0004A500C3000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.861115
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.861595
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.865107
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.870115
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.871123
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.871615
+    },
+    {
+        "data": "020261038F000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.872095
+    },
+    {
+        "data": "0332000400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.875139
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.880095
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.880615
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.881099
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.89113
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.891593
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.892071
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.900092
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.901089
+    },
+    {
+        "data": "008000004FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.901592
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.910111
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.911095
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.911585
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.920088
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.931078
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.931568
+    },
+    {
+        "data": "00049901E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.940085
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.951086
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.951583
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.952078
+    },
+    {
+        "data": "008000004FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752018.952582
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752018.956819
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.960078
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752018.960614
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.961098
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.961582
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.965091
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.970111
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.971122
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.971614
+    },
+    {
+        "data": "020261038F000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.972094
+    },
+    {
+        "data": "0332320400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.97513
+    },
+    {
+        "data": "0004A201E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752018.980087
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752018.980605
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.981089
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752018.99115
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752018.991642
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752018.992125
+    },
+    {
+        "data": "0004A001E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.000088
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.001111
+    },
+    {
+        "data": "008000004FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752019.001633
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752019.010108
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.011093
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.011585
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.020077
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.03111
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.031601
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.040077
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.05107
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.051561
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.052056
+    },
+    {
+        "data": "008000004FFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752019.052567
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752019.056864
+    },
+    {
+        "data": "00049C01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.060094
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752019.060624
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.061112
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.061592
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.065104
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.070116
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.071144
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.071635
+    },
+    {
+        "data": "020261038F00007F",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.072134
+    },
+    {
+        "data": "0332320400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.075144
+    },
+    {
+        "data": "00049B01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.0801
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.08062
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.081104
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.091111
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.091604
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.092088
+    },
+    {
+        "data": "0004A001E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.100092
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.101096
+    },
+    {
+        "data": "0080000068FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752019.101588
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752019.110114
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.111112
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.111603
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.12008
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.131116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.131608
+    },
+    {
+        "data": "00049A01E7060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.140096
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.151105
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.151601
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.152101
+    },
+    {
+        "data": "008000007DFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752019.15259
+    },
+    {
+        "data": "0301FFFF00",
+        "id": "0000900B",
+        "interface": "can0",
+        "timestamp": 1740752019.156879
+    },
+    {
+        "data": "00049E01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.160093
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752019.160623
+    },
+    {
+        "data": "00049900C2000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.16111
+    },
+    {
+        "data": "010072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.161589
+    },
+    {
+        "data": "0100650316000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.165113
+    },
+    {
+        "data": "02FA01E6003C03C5",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.170118
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.171089
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.17158
+    },
+    {
+        "data": "020261038F00007F",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.17206
+    },
+    {
+        "data": "0332640400000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.175131
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.180101
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "160",
+        "interface": "can0",
+        "timestamp": 1740752019.18062
+    },
+    {
+        "data": "030072019301F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.181123
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.191116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.191607
+    },
+    {
+        "data": "040261038F0001F9",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.192095
+    },
+    {
+        "data": "00049F01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.200095
+    },
+    {
+        "data": "FF00000000000000",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.20112
+    },
+    {
+        "data": "008000007DFEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752019.201614
+    },
+    {
+        "data": "0000000000009100",
+        "id": "200",
+        "interface": "can0",
+        "timestamp": 1740752019.210116
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.211116
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.211607
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.220078
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.231059
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.231551
+    },
+    {
+        "data": "00049A01E6060000",
+        "id": "090",
+        "interface": "can0",
+        "timestamp": 1740752019.240087
+    },
+    {
+        "data": "00000000CE640091",
+        "id": "080",
+        "interface": "can0",
+        "timestamp": 1740752019.251133
+    },
+    {
+        "data": "0000800000000091",
+        "id": "120",
+        "interface": "can0",
+        "timestamp": 1740752019.251623
+    },
+    {
+        "data": "000301030101F900",
+        "id": "150",
+        "interface": "can0",
+        "timestamp": 1740752019.252119
+    },
+    {
+        "data": "0080000096FEFFFF",
+        "id": "210",
+        "interface": "can0",
+        "timestamp": 1740752019.252615
+    }
+]
