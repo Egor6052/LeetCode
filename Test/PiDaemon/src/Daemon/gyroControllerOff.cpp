@@ -1,0 +1,40 @@
+#include <iostream>
+#include <cstdio>
+#include <memory>
+#include <array>
+
+#include "../../lib/Daemon.h"
+
+void Daemon::gyroControllerOff() {
+    if (!statusPower){
+        std::cout << "Gyro is OFF!" << std::endl;
+    } else {
+        // const char* command = "cat ../../commands/gyro/gyro_off.dump | canplayer";
+        
+        // // Opening the process for reading
+        // std::array<char, 128> buffer;
+        // std::string result;
+        // FILE* pipe = popen(command, "r");
+
+        // if (!pipe) {
+        //     std::cerr << "Error opening pipe!" << std::endl;
+        //     return;
+        // }
+
+        // // Read the command output
+        // while (fgets(buffer.data(), buffer.size(), pipe) != nullptr) {
+        //     result += buffer.data();
+        // }
+
+        // // Close the pipe and get the completion code
+        // int exitCode = pclose(pipe);
+
+        // if (exitCode == 0) {
+        //     std::cout << "Gyro is disabled!\n" << result << std::endl;
+        // } else {
+        //     std::cerr << "Error executing gyro command. Exit code: " << exitCode << std::endl;
+        // }
+
+        readControllerPowerGPIO(pinGPIO);
+    }
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/start.dir/src/main.cpp.o CMakeFiles/start.dir/src/File/File.cpp.o CMakeFiles/start.dir/src/File/createUniqueFile.cpp.o CMakeFiles/start.dir/src/File/printFileContents.cpp.o -o start
