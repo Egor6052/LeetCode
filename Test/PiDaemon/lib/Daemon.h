@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include <string.h>
+#include <pigpio.h>
+
+// #define STATUS_PIN 26
 
 class Daemon {
     private:
@@ -32,7 +35,10 @@ class Daemon {
 
         void toggleGyroController();
 
-        void readControllerPowerGPIO(int pin);
+        void readControllerPowerGPIO();
+
+        void backgroundMode();
+
         std::string printStatusGyroController();
 
         std::string getJSON();

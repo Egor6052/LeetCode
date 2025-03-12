@@ -24,6 +24,8 @@ set(SOURCE_FILES
     ./src/DataTime/DataTime.cpp
 
     ./src/Daemon/readControllerPower.cpp
+    ./src/Daemon/backgroundMode.cpp
+    
     ./src/Daemon/toggleGyroController.cpp
 )
 

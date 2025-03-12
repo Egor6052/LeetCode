@@ -138,5 +138,6 @@ CMakeFiles/start.dir/src/Daemon/toggleGyroController.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/14/limits \
  /usr/include/c++/14/ctime /usr/include/c++/14/bits/parse_numbers.h \
+ /usr/local/include/pigpio.h \
  /home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/../../lib/Daemon.h \
  /usr/include/string.h /usr/include/strings.h

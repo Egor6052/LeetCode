@@ -4,29 +4,30 @@
 
 #include "../../lib/Daemon.h"
 
-void Daemon::readControllerPowerGPIO(int pin) {
-    // Ініціалізація бібліотеки pigpio
-    if (gpioInitialise() < 0) {
-        std::cerr << "Error initializing pigpio." << std::endl;
-        return;
-    }
+#define STATUS_PIN 26
 
-    // statusPower =  gpioRead(pin);
-    
-    // Настроювання піну на вивід
-    gpioSetMode(pin, PI_OUTPUT);
+void Daemon::readControllerPowerGPIO() {
 
-    // TODO
-    statusPower = !statusPower;
+//     static bool initialized = false;
+//     if (!initialized) {
+//         if (gpioInitialise() < 0) {
+//             std::cerr << "Error initializing pigpio." << std::endl;
+//             return;
+//         }
+//         initialized = true;
+//     }
 
-    gpioWrite(pin, statusPower);
+//     gpioSetMode(STATUS_PIN, PI_OUTPUT);
 
-    std::cout << "Gyro Controller GPIO pin" << pin << " is " << statusPower << std::endl;
+//     // TODO
+//     statusPower = !statusPower;
 
-    gpioTerminate();
+//     gpioWrite(STATUS_PIN, statusPower ? 1 : 0);
+
+//     std::cout << "Gyro Controller GPIO pin 13 is " << statusPower << std::endl;
 }
 
 std::string Daemon::printStatusGyroController(){
-    std::string print = "Gyro Controller GPIO pin" + std::to_string(pinGPIO) + " is " + std::to_string(statusPower);
+    std::string print = "Gyro Controller GPIO pin" + std::to_string(STATUS_PIN) + " is " + std::to_string(statusPower);
     return print;
 }

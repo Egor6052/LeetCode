@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/start.dir/src/Daemon/Daemon.cpp.o.d"
   "CMakeFiles/start.dir/src/Daemon/addToStartup.cpp.o"
   "CMakeFiles/start.dir/src/Daemon/addToStartup.cpp.o.d"
+  "CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.o"
+  "CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.o.d"
   "CMakeFiles/start.dir/src/Daemon/getJSON.cpp.o"
   "CMakeFiles/start.dir/src/Daemon/getJSON.cpp.o.d"
   "CMakeFiles/start.dir/src/Daemon/gyroControllerOff.cpp.o"

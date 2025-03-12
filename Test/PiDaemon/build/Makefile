@@ -177,6 +177,30 @@ src/Daemon/addToStartup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Daemon/addToStartup.cpp.s
 .PHONY : src/Daemon/addToStartup.cpp.s
 
+src/Daemon/backgroundMode.o: src/Daemon/backgroundMode.cpp.o
+.PHONY : src/Daemon/backgroundMode.o
+
+# target to build an object file
+src/Daemon/backgroundMode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.o
+.PHONY : src/Daemon/backgroundMode.cpp.o
+
+src/Daemon/backgroundMode.i: src/Daemon/backgroundMode.cpp.i
+.PHONY : src/Daemon/backgroundMode.i
+
+# target to preprocess a source file
+src/Daemon/backgroundMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.i
+.PHONY : src/Daemon/backgroundMode.cpp.i
+
+src/Daemon/backgroundMode.s: src/Daemon/backgroundMode.cpp.s
+.PHONY : src/Daemon/backgroundMode.s
+
+# target to generate assembly for a file
+src/Daemon/backgroundMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.s
+.PHONY : src/Daemon/backgroundMode.cpp.s
+
 src/Daemon/getJSON.o: src/Daemon/getJSON.cpp.o
 .PHONY : src/Daemon/getJSON.o
 
@@ -408,6 +432,9 @@ help:
 	@echo "... src/Daemon/addToStartup.o"
 	@echo "... src/Daemon/addToStartup.i"
 	@echo "... src/Daemon/addToStartup.s"
+	@echo "... src/Daemon/backgroundMode.o"
+	@echo "... src/Daemon/backgroundMode.i"
+	@echo "... src/Daemon/backgroundMode.s"
 	@echo "... src/Daemon/getJSON.o"
 	@echo "... src/Daemon/getJSON.i"
 	@echo "... src/Daemon/getJSON.s"

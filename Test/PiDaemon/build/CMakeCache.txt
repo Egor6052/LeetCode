@@ -216,15 +216,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Daemon_BINARY_DIR:STATIC=/home/admin1/Стільниця/Робота/PiDaemon/build
-
-//Value Computed by CMake
-Daemon_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Daemon_SOURCE_DIR:STATIC=/home/admin1/Стільниця/Робота/PiDaemon
-
-//Value Computed by CMake
 PiDaemon_BINARY_DIR:STATIC=/home/admin1/Стільниця/Робота/PiDaemon/build
 
 //Value Computed by CMake

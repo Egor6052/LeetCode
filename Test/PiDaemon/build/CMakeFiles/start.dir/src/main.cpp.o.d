@@ -130,4 +130,8 @@ CMakeFiles/start.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/string.h \
  /usr/include/strings.h \
- /home/admin1/Стільниця/Робота/PiDaemon/src/../lib/Daemon.h
+ /home/admin1/Стільниця/Робота/PiDaemon/src/../lib/Daemon.h \
+ /usr/local/include/pigpio.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h

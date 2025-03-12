@@ -8,6 +8,7 @@ int main(){
     Daemon daemon;
     daemon.addToStartup();
     // daemon.removeFromAutostart();
+    // daemon.backgroundMode();
 
     daemon.toggleGyroController();
 

@@ -6,10 +6,9 @@
 #include "../../lib/Daemon.h"
 
 void Daemon::gyroControllerOff() {
-    if (!statusPower){
-        std::cout << "Gyro is OFF!" << std::endl;
-    } else {
-        // const char* command = "cat ../../commands/gyro/gyro_off.dump | canplayer";
+        printf("Enter!");
+
+        // const char* command = "cat ../commands/gyro/gyro_off.dump | canplayer";
         
         // // Opening the process for reading
         // std::array<char, 128> buffer;
@@ -35,6 +34,5 @@ void Daemon::gyroControllerOff() {
         //     std::cerr << "Error executing gyro command. Exit code: " << exitCode << std::endl;
         // }
 
-        readControllerPowerGPIO(pinGPIO);
-    }
+        // readControllerPowerGPIO();
 }

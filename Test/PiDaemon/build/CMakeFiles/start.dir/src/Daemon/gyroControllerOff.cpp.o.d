@@ -149,4 +149,4 @@ CMakeFiles/start.dir/src/Daemon/gyroControllerOff.cpp.o: \
  /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/array \
  /usr/include/c++/14/compare \
  /home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/../../lib/Daemon.h \
- /usr/include/string.h /usr/include/strings.h
+ /usr/include/string.h /usr/include/strings.h /usr/local/include/pigpio.h

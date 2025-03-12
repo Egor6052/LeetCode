@@ -132,6 +132,13 @@ CMakeFiles/start.dir/src/Daemon/addToStartup.cpp.o: \
  /usr/include/c++/14/bits/codecvt.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc \
+ /usr/include/c++/14/bits/fstream.tcc /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
  /home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/../../lib/Daemon.h \
- /usr/include/string.h /usr/include/strings.h
+ /usr/include/string.h /usr/include/strings.h /usr/local/include/pigpio.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h

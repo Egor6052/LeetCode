@@ -1,33 +1,61 @@
 #include <iostream>
 #include <thread>
+#include <pigpio.h>
+
 #include "../../lib/Daemon.h"
 
+// Запусти pigpio-демон
+// sudo pigpiod 
+
+// Встанови GPIO26 (пін 30) у вихідний режим
+// pigs m 26 1
+
+// On
+// pigs w 26 1 
+
+// Off
+// pigs w 26 0
+
 void Daemon::toggleGyroController(){
-    std::string OnOff;
+    bool OnOff = false;
 
-    while (true)
-    {
-        std::cout << "ON / OFF gyro?\n 1 - On; 2 - Off";
-        std::cin >> OnOff;
-        if (OnOff == "1"){
+    // Initialize pigpio
+    if (gpioInitialise() < 0) {
+        std::cerr << "Error initializing pigpio." << std::endl;
+        return;
+    }
+
+    std::cout << "pigpio is initialized!" << std::endl;
+
+    while (true) {
+        
+        OnOff = gpioRead(pinGPIO);
+
+        std::cout << "GPIO " << pinGPIO << " state: " << OnOff << std::endl;
+
+        if (OnOff && !statusPower) {
             gyroControllerOn();
-            std::cout << printStatusGyroController() << std::endl;
             printf("\n");
             
-            // Затримка
-            std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+            if (!statusPower) {
+                statusPower = !statusPower;
+            }
+            std::cout << printStatusGyroController() << std::endl;
 
-        } else if (OnOff == "2"){
+
+        } else if (!OnOff && statusPower) {
             gyroControllerOff();
-            std::cout << printStatusGyroController() << std::endl;
             printf("\n");
-            
-            // Затримка
-            std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
-        } else {
-            break;
+            if (statusPower) {
+                statusPower = !statusPower;
+            }
+            std::cout << printStatusGyroController() << std::endl;
+
         }
+
+        // Wait
+        std::this_thread::sleep_for(std::chrono::milliseconds(5000));
     }
 
 }

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/Daemon.cpp" "CMakeFiles/start.dir/src/Daemon/Daemon.cpp.o" "gcc" "CMakeFiles/start.dir/src/Daemon/Daemon.cpp.o.d"
   "/home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/addToStartup.cpp" "CMakeFiles/start.dir/src/Daemon/addToStartup.cpp.o" "gcc" "CMakeFiles/start.dir/src/Daemon/addToStartup.cpp.o.d"
+  "/home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/backgroundMode.cpp" "CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.o" "gcc" "CMakeFiles/start.dir/src/Daemon/backgroundMode.cpp.o.d"
   "/home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/getJSON.cpp" "CMakeFiles/start.dir/src/Daemon/getJSON.cpp.o" "gcc" "CMakeFiles/start.dir/src/Daemon/getJSON.cpp.o.d"
   "/home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/gyroControllerOff.cpp" "CMakeFiles/start.dir/src/Daemon/gyroControllerOff.cpp.o" "gcc" "CMakeFiles/start.dir/src/Daemon/gyroControllerOff.cpp.o.d"
   "/home/admin1/Стільниця/Робота/PiDaemon/src/Daemon/gyroControllerOn.cpp" "CMakeFiles/start.dir/src/Daemon/gyroControllerOn.cpp.o" "gcc" "CMakeFiles/start.dir/src/Daemon/gyroControllerOn.cpp.o.d"
