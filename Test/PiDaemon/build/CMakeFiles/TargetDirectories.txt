@@ -1,3 +1,0 @@
-/home/admin1/Стільниця/Робота/PiDaemon/build/CMakeFiles/start.dir
-/home/admin1/Стільниця/Робота/PiDaemon/build/CMakeFiles/edit_cache.dir
-/home/admin1/Стільниця/Робота/PiDaemon/build/CMakeFiles/rebuild_cache.dir

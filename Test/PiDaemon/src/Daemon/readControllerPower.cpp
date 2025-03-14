@@ -4,9 +4,9 @@
 
 #include "../../lib/Daemon.h"
 
-#define STATUS_PIN 26
+// #define STATUS_PIN 26
 
-void Daemon::readControllerPowerGPIO() {
+// void Daemon::readControllerPowerGPIO() {
 
 //     static bool initialized = false;
 //     if (!initialized) {
@@ -20,14 +20,14 @@ void Daemon::readControllerPowerGPIO() {
 //     gpioSetMode(STATUS_PIN, PI_OUTPUT);
 
 //     // TODO
-//     statusPower = !statusPower;
+//     seakeeperSystemAll_status = !seakeeperSystemAll_status;
 
-//     gpioWrite(STATUS_PIN, statusPower ? 1 : 0);
+//     gpioWrite(STATUS_PIN, seakeeperSystemAll_status ? 1 : 0);
 
-//     std::cout << "Gyro Controller GPIO pin 13 is " << statusPower << std::endl;
-}
+//     std::cout << "Gyro Controller GPIO pin 13 is " << seakeeperSystemAll_status << std::endl;
+// }
 
-std::string Daemon::printStatusGyroController(){
-    std::string print = "Gyro Controller GPIO pin" + std::to_string(STATUS_PIN) + " is " + std::to_string(statusPower);
+std::string Daemon::printStatusGyroController(int status_pin){
+    std::string print = "Gyro Controller GPIO pin" + std::to_string(status_pin) + " is " + std::to_string(seakeeperSystemAll_status);
     return print;
 }

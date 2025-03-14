@@ -4,23 +4,20 @@
 #include <string>
 
 #include "../../lib/Daemon.h"
-
-// sudo systemctl daemon-reload
-
-// sudo systemctl restart PiDaemon.service
-
-// sudo systemctl status PiDaemon.service
+#include "../../lib/Logger.h"
 
 // Додавання до автозапуску
 void Daemon::addToStartup() {
     if (servicePath.empty()) {
         std::cerr << "Error: servicePath is empty!" << std::endl;
+        logError("Error: servicePath is empty!");
         return;
     }
 
     std::ofstream serviceFile(servicePath, std::ios::out | std::ios::trunc);
     if (!serviceFile) {
         std::cerr << "Could not open " << servicePath << " for writing." << std::endl;
+        logError("Could not open " + servicePath + " for writing.");
         return;
     }
 
@@ -43,6 +40,7 @@ void Daemon::addToStartup() {
     int reloadStatus = system("sudo systemctl daemon-reload");
     if (reloadStatus != 0) {
         std::cerr << "Error: Failed to reload systemd daemon!" << std::endl;
+        logError("Error: Failed to reload systemd daemon!");
         return;
     }
 
@@ -50,6 +48,7 @@ void Daemon::addToStartup() {
     int enableStatus = system("sudo systemctl enable PiDaemon.service");
     if (enableStatus != 0) {
         std::cerr << "Error: Failed to enable PiDaemon service!" << std::endl;
+        logError("Error: Failed to enable PiDaemon service!");
         return;
     }
 
